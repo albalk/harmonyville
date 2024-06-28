@@ -194,7 +194,7 @@
   #textoPin1 {
     position: absolute;
     left: 53%;
-    top: 0%;
+    top: -10%;
   }
   
   #pin2 {
@@ -206,7 +206,7 @@
   #textoPin2 {
     position: absolute;
     left: 30%;
-    top:9%;
+    top:16%;
   }
   
   #pin3 {
@@ -229,8 +229,8 @@
   
   #textoPin4 {
     position: absolute;
-    left: 20%;
-    top: 15%;
+    left: 2%;
+    top: 11%;
   }
   
   #pin5 {
@@ -241,8 +241,8 @@
   
   #textoPin5 {
     position: absolute;
-    left: 48.45%;
-    top: 30.2%;
+    left: 39%;
+    top: 43%;
   }
   
   #pin6 {
@@ -253,8 +253,8 @@
   
   #textoPin6 {
     position: absolute;
-    left: 23.5%;
-    top: 58%;
+    left: 5%;
+    top: 54%;
   }
   
   #pin7 {
@@ -277,8 +277,8 @@
   
   #textoPin8 {
     position: absolute;
-    left: 78.2%;
-    top: 52%;
+    left: 63.5%;
+    top: 32%;
   }
   
   #pin9 {
@@ -289,7 +289,7 @@
   
   #textoPin9 {
     position: absolute;
-    left: 35%;
+    left: 16%;
     top: 72%;
   }
 }
@@ -308,109 +308,109 @@
   #pin1 {
     position: absolute;
     left: 44.5%;
-    top: 29%;
+    top: 22%;
   }
   
   #textoPin1 {
     position: absolute;
-    left: 54.5%;
-    top: 29%;
+    left: 5%;
+    top: 0%;
   }
   
   #pin2 {
     position: absolute;
     left: 27%;
-    top:33%;
+    top:27%;
   }
   
   #textoPin2 {
     position: absolute;
-    left: 12%;
-    top:33%;
+    left: 5%;
+    top: 0%;
   }
   
   #pin3 {
     position: absolute;
-    left: 54%;
-    top: 33%;
+    left: 54.4%;
+    top: 28%;
   }
   
   #textoPin3 {
     position: absolute;
-    left: 62%;
-    top: 10%;
+    left: 5%;
+    top: 0%;
   }
   
   #pin4 {
     position: absolute;
     left: 14%;
-    top: 35%;
+    top: 30%;
   }
   
   #textoPin4 {
     position: absolute;
-    left: 20%;
-    top: 15%;
+    left: 5%;
+    top: 0%;
   }
   
   #pin5 {
     position: absolute;
-    left: 48.45%;
-    top: 35.2%;
+    left: 44%;
+    top: 38%;
   }
   
   #textoPin5 {
     position: absolute;
-    left: 48.45%;
-    top: 30.2%;
+    left: 5%;
+    top: 73%;
   }
   
   #pin6 {
     position: absolute;
-    left: 28.5%;
-    top: 58%;
+    left: 19%;
+    top: 48%;
   }
   
   #textoPin6 {
     position: absolute;
-    left: 23.5%;
-    top: 58%;
+    left: 5%;
+    top: 73%;
   }
   
   #pin7 {
     position: absolute;
-    left: 60%;
-    top: 63%;
+    left: 58.25%;
+    top: 50.5%;
   }
   
   #textoPin7 {
     position: absolute;
-    left: 65%;
-    top: 63%;
+    left: 5%;
+    top: 73%;
   }
   
   #pin8 {
     position: absolute;
-    left: 73.2%;
-    top: 52%;
+    left: 74.4%;
+    top: 45%;
   }
   
   #textoPin8 {
     position: absolute;
-    left: 78.2%;
-    top: 52%;
+    left: 5%;
+    top: 73%;
   }
   
   #pin9 {
     position: absolute;
-    left: 40%;
-    top: 72%;
+    left: 39.25%;
+    top: 56.5%;
   }
   
   #textoPin9 {
     position: absolute;
-    left: 35%;
-    top: 72%;
+    left: 5%;
+    top: 73%;
   }
 }
 

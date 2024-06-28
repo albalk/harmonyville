@@ -16,31 +16,31 @@ export default function Navbar() {
                     
                     <ul className="font-medium flex flex-col px-2 py-4 md:p-0 mt-4 border rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
                         <li>
-                            <a className="block py-2 px-3  rounded md:border-0 md:p-0 text-black">Sostenibilidad</a>
+                            <a href="#" className="block py-2 px-3  rounded md:border-0 md:p-0 text-black">Sostenibilidad</a>
                         </li>
                         <li>
-                            <a className="block py-2 px-3  rounded md:border-0 md:p-0 text-black">Agua</a>
+                            <a href="#fondoAgua" className="block py-2 px-3  rounded md:border-0 md:p-0 text-black">Agua</a>
                         </li>
                         <li>
-                            <a className="block py-2 px-3  rounded md:border-0 md:p-0 text-black">Real State</a>
+                            <a href="#fondoRealState" className="block py-2 px-3  rounded md:border-0 md:p-0 text-black">Real State</a>
                         </li>
                         <li>
-                            <a className="block py-2 px-3  rounded md:border-0 md:p-0 text-black">Mobility</a>
+                            <a href="#fondoMobility" className="block py-2 px-3  rounded md:border-0 md:p-0 text-black">Mobility</a>
                         </li>
                         <li>
-                            <a className="block py-2 px-3  rounded md:border-0 md:p-0 text-black">Bestinver</a>
+                            <a href="#fondoBestinver" className="block py-2 px-3  rounded md:border-0 md:p-0 text-black">Bestinver</a>
                         </li>
                         <li>
-                            <a className="block py-2 px-3  rounded md:border-0 md:p-0 text-black">Cultura</a>
+                            <a href="#fondoCultura" className="block py-2 px-3  rounded md:border-0 md:p-0 text-black">Cultura</a>
                         </li>
                         <li>
-                            <a className="block py-2 px-3  rounded md:border-0 md:p-0 text-black">Construcción</a>
+                            <a href="#fondoConstrucción" className="block py-2 px-3  rounded md:border-0 md:p-0 text-black">Construcción</a>
                         </li>
                         <li>
-                            <a className="block py-2 px-3  rounded md:border-0 md:p-0 text-black">Digital Hub</a>
+                            <a href="#fondoDigitalHub" className="block py-2 px-3  rounded md:border-0 md:p-0 text-black">Digital Hub</a>
                         </li>
                         <li>
-                            <a className="block py-2 px-3  rounded md:border-0 md:p-0 text-black">Energía</a>
+                            <a href="#fondoEnergía" className="block py-2 px-3  rounded md:border-0 md:p-0 text-black">Energía</a>
                         </li>
                     </ul>
                 </div>
