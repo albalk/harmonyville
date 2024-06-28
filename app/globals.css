@@ -1,0 +1,481 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.titulos {
+  position: relative;
+  z-index: 2;
+}
+
+#fondoTitulo {
+  background-image: url('/img/fondo.jpeg');
+  background-size: cover; 
+  background-position: center; 
+  position: relative;
+}
+
+#fondoAgua {
+  background-image: url('/img/fondoAgua.jpg');
+  background-size: cover; 
+  background-position: center; 
+  position: relative;
+}
+
+#fondoAgua::after {
+  content: ""; 
+  position: absolute; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; 
+  background-color: rgba(0, 0, 0, 0.3); 
+  z-index: 1;
+}
+
+/**/
+
+#fondoRealState {
+  background-image: url('/img/fondoRealState.jpg');
+  background-size: cover; 
+  background-position: center; 
+  position: relative;
+}
+
+#fondoRealState::after {
+  content: ""; 
+  position: absolute; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; 
+  background-color: rgba(0, 0, 0, 0.3); 
+  z-index: 1;
+}
+
+/**/
+
+#fondoMobility {
+  background-image: url('/img/fondoMobility.jpg');
+  background-size: cover; 
+  background-position: center; 
+  position: relative;
+}
+
+#fondoMobility::after {
+  content: ""; 
+  position: absolute; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; 
+  background-color: rgba(0, 0, 0, 0.3); 
+  z-index: 1;
+}
+
+/**/
+
+#fondoBestinver {
+  background-image: url('/img/fondoBestinver2.jpg');
+  background-size: cover; 
+  background-position: center; 
+  position: relative;
+}
+
+#fondoBestinver::after {
+  content: ""; 
+  position: absolute; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; 
+  background-color: rgba(0, 0, 0, 0.3); 
+  z-index: 1;
+}
+
+/**/
+
+#fondoCultura {
+  background-image: url('/img/fondoCultura.jpg');
+  background-size: cover; 
+  background-position: center; 
+  position: relative;
+}
+
+#fondoCultura::after {
+  content: ""; 
+  position: absolute; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; 
+  background-color: rgba(0, 0, 0, 0.3); 
+  z-index: 1;
+}
+
+/**/
+
+#fondoConstrucción {
+  background-image: url('/img/fondoConstruccion.jpeg');
+  background-size: cover; 
+  background-position: center; 
+  position: relative;
+  filter:hue-rotate()
+}
+
+#fondoConstrucción::after {
+  content: ""; 
+  position: absolute; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; 
+  background-color: rgba(0, 0, 0, 0.3); 
+  z-index: 1;
+}
+
+/**/
+
+#fondoDigitalHub {
+  background-image: url('/img/fondoRealState.jpg');
+  background-size: cover; 
+  background-position: center; 
+  position: relative;
+}
+
+#fondoDigitalHub::after {
+  content: ""; 
+  position: absolute; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; 
+  background-color: rgba(0, 0, 0, 0.3); 
+  z-index: 1;
+}
+
+/**/
+
+#fondoEnergía {
+  background-image: url('/img/fondoEnergia.jpg');
+  background-size: cover; 
+  background-position: center; 
+  position: relative;
+}
+
+#fondoEnergía::after {
+  content: ""; 
+  position: absolute; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; 
+  background-color: rgba(0, 0, 0, 0.3); 
+  z-index: 1;
+}
+
+/**/
+@media (min-width: 768px) {
+  #fondoCiudad {
+    background-image: url('/img/Harmonyville.png');
+    background-size:contain; 
+    background-position: center; 
+    position: relative;
+    background-repeat: no-repeat;
+  }
+  
+  /* pines */
+  
+  #pin1 {
+    position: absolute;
+    left: 48.5%;
+    top: 0%;
+  }
+  
+  #textoPin1 {
+    position: absolute;
+    left: 53%;
+    top: 0%;
+  }
+  
+  #pin2 {
+    position: absolute;
+    left: 35%;
+    top:9%;
+  }
+  
+  #textoPin2 {
+    position: absolute;
+    left: 30%;
+    top:9%;
+  }
+  
+  #pin3 {
+    position: absolute;
+    left: 57%;
+    top: 10%;
+  }
+  
+  #textoPin3 {
+    position: absolute;
+    left: 62%;
+    top: 10%;
+  }
+  
+  #pin4 {
+    position: absolute;
+    left: 25%;
+    top: 15%;
+  }
+  
+  #textoPin4 {
+    position: absolute;
+    left: 20%;
+    top: 15%;
+  }
+  
+  #pin5 {
+    position: absolute;
+    left: 48.45%;
+    top: 35.2%;
+  }
+  
+  #textoPin5 {
+    position: absolute;
+    left: 48.45%;
+    top: 30.2%;
+  }
+  
+  #pin6 {
+    position: absolute;
+    left: 28.5%;
+    top: 58%;
+  }
+  
+  #textoPin6 {
+    position: absolute;
+    left: 23.5%;
+    top: 58%;
+  }
+  
+  #pin7 {
+    position: absolute;
+    left: 60%;
+    top: 63%;
+  }
+  
+  #textoPin7 {
+    position: absolute;
+    left: 65%;
+    top: 63%;
+  }
+  
+  #pin8 {
+    position: absolute;
+    left: 73.2%;
+    top: 52%;
+  }
+  
+  #textoPin8 {
+    position: absolute;
+    left: 78.2%;
+    top: 52%;
+  }
+  
+  #pin9 {
+    position: absolute;
+    left: 40%;
+    top: 72%;
+  }
+  
+  #textoPin9 {
+    position: absolute;
+    left: 35%;
+    top: 72%;
+  }
+}
+
+@media (max-width: 768px) {
+  #fondoCiudad {
+    background-image: url('/img/Harmonyville.png');
+    background-size:contain; 
+    background-position: center; 
+    position: relative;
+    background-repeat: no-repeat;
+  }
+  
+  /* pines */
+  
+  #pin1 {
+    position: absolute;
+    left: 44.5%;
+    top: 29%;
+  }
+  
+  #textoPin1 {
+    position: absolute;
+    left: 54.5%;
+    top: 29%;
+  }
+  
+  #pin2 {
+    position: absolute;
+    left: 27%;
+    top:33%;
+  }
+  
+  #textoPin2 {
+    position: absolute;
+    left: 12%;
+    top:33%;
+  }
+  
+  #pin3 {
+    position: absolute;
+    left: 54%;
+    top: 33%;
+  }
+  
+  #textoPin3 {
+    position: absolute;
+    left: 62%;
+    top: 10%;
+  }
+  
+  #pin4 {
+    position: absolute;
+    left: 14%;
+    top: 35%;
+  }
+  
+  #textoPin4 {
+    position: absolute;
+    left: 20%;
+    top: 15%;
+  }
+  
+  #pin5 {
+    position: absolute;
+    left: 48.45%;
+    top: 35.2%;
+  }
+  
+  #textoPin5 {
+    position: absolute;
+    left: 48.45%;
+    top: 30.2%;
+  }
+  
+  #pin6 {
+    position: absolute;
+    left: 28.5%;
+    top: 58%;
+  }
+  
+  #textoPin6 {
+    position: absolute;
+    left: 23.5%;
+    top: 58%;
+  }
+  
+  #pin7 {
+    position: absolute;
+    left: 60%;
+    top: 63%;
+  }
+  
+  #textoPin7 {
+    position: absolute;
+    left: 65%;
+    top: 63%;
+  }
+  
+  #pin8 {
+    position: absolute;
+    left: 73.2%;
+    top: 52%;
+  }
+  
+  #textoPin8 {
+    position: absolute;
+    left: 78.2%;
+    top: 52%;
+  }
+  
+  #pin9 {
+    position: absolute;
+    left: 40%;
+    top: 72%;
+  }
+  
+  #textoPin9 {
+    position: absolute;
+    left: 35%;
+    top: 72%;
+  }
+}
+
+
+/* scrollbar */
+
+@layer utilities {
+  .scrollbar::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    display: none;
+  }
+
+  .scrollbar::-webkit-scrollbar-track {
+    /* border-radius: 100vh; */
+    background: #cfc9dc;
+    display: none;
+  }
+  
+  .scrollbar::-webkit-scrollbar-track:hover {
+    /* border-radius: 100vh; */
+    background: #cfc9dc;
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb {
+    background: #9370db;
+    border-radius: 100vh;
+    display: none;
+    /* border: 3px solid #9370db; */
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #8257c8;
+    border-radius: 100vh;
+    /* border: 3px solid #8257c8; */
+  }
+} 
+
+
+/* :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+} */
