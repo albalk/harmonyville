@@ -23,7 +23,7 @@ export default function Main() {
             </div>
 
             {/* dibujo ciudad */}
-            <div id="fondoCiudad" className='h-72 py-72 my-24 lg:h-96 lg:py-96'> {/*pb-64*/}
+            <div id="fondoCiudad" className='h-72 py-72 my-36 lg:h-96 lg:py-96'> {/*pb-64*/}
                 {/* <img src='/img/Harmonyville2.png' className='py-24 w-7/12 h-7/12'/> */}
                 <img id="pin1" src='/img/hoja2.png' className='w-12' onClick={() => setPin1(!pin1)}/>
                 {pin1 && 
@@ -102,42 +102,42 @@ export default function Main() {
             
 
             {/* agua */}
-            <div id="fondoAgua" className='py-14'>
+            <div id="fondoAgua" className='py-14 my-24'>
                 <h1 className='titulos py-96 lg:py-80 font-bold text-5xl lg:text-8xl flex justify-center text-center text-white'>Agua</h1>
             </div>
 
             {/* real state */}
-            <div id="fondoRealState" className='py-14'>
+            <div id="fondoRealState" className='py-14 my-24'>
                 <h1 className='titulos py-96 lg:py-80 font-bold text-5xl lg:text-8xl flex justify-center text-center text-white'>Real State</h1>
             </div>
 
             {/* Mobility */}
-            <div id="fondoMobility" className='py-14'>
+            <div id="fondoMobility" className='py-14  my-24'>
                 <h1 className='titulos py-96 lg:py-80 font-bold text-5xl lg:text-8xl flex justify-center text-center text-white'>Mobility</h1>
             </div>
 
             {/* Bestinver */}
-            <div id="fondoBestinver" className='py-14'>
+            <div id="fondoBestinver" className='py-14  my-24'>
                 <h1 className='titulos py-96 lg:py-80 font-bold text-5xl lg:text-8xl flex justify-center text-center text-white'>Bestinver</h1>
             </div>
 
             {/* Cultura */}
-            <div id="fondoCultura" className='py-14'>
+            <div id="fondoCultura" className='py-14 my-24'>
                 <h1 className='titulos py-96 lg:py-80 font-bold text-5xl lg:text-8xl flex justify-center text-center text-white'>Cultura</h1>
             </div>
 
             {/* Construcción */}
-            <div id="fondoConstrucción" className='py-14'>
+            <div id="fondoConstrucción" className='py-14 my-24'>
                 <h1 className='titulos py-96 lg:py-80 font-bold text-5xl lg:text-8xl flex justify-center text-center text-white'>Construcción</h1>
             </div>
 
             {/* Digital Hub */}
-            <div id="fondoDigitalHub" className='py-14'>
+            <div id="fondoDigitalHub" className='py-14 my-24'>
                 <h1 className='titulos py-96 lg:py-80 font-bold text-5xl lg:text-8xl flex justify-center text-center text-white'>Digital Hub</h1>
             </div>
 
             {/* Energía */}
-            <div id="fondoEnergía" className='py-14'>
+            <div id="fondoEnergía" className='py-14 my-24'>
                 <h1 className='titulos py-96 lg:py-80 font-bold text-5xl lg:text-8xl flex justify-center text-center text-white'>Energía</h1>
             </div>
 
