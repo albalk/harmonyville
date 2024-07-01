@@ -25,7 +25,7 @@ export default function Main() {
             {/* dibujo ciudad */}
             <div id="fondoCiudad" className='h-72 py-72 lg:h-96 lg:py-96'> {/*pb-64*/}
                 {/* <img src='/img/Harmonyville2.png' className='py-24 w-7/12 h-7/12'/> */}
-                <img id="pin1" src='/img/pin.svg' className='w-12' onClick={() => setPin1(!pin1)}/>
+                <img id="pin1" src='/img/hoja2.png' className='w-12' onClick={() => setPin1(!pin1)}/>
                 {pin1 && 
                     <div id="textoPin1" class="block w-11/12 md:w-80 p-3 bg-white border-2 border-red-200 rounded-lg shadow">
                         <h5 class="mb-2 text-md font-bold tracking-tight text-gray-900">Economía</h5>
@@ -33,7 +33,7 @@ export default function Main() {
                     </div>
                 }
 
-                <img id="pin2" src='/img/pin.svg' className='w-12' onClick={() => setPin2(!pin2)}/>
+                <img id="pin2" src='/img/hoja2.png' className='w-12' onClick={() => setPin2(!pin2)}/>
                 {pin2 && 
                     <div id="textoPin2" class="block w-11/12 md:w-80 p-3 bg-white border-2 border-red-200 rounded-lg shadow">
                         <h5 class="mb-2 text-md font-bold tracking-tight text-gray-900">Infraestructuras</h5>
@@ -41,7 +41,7 @@ export default function Main() {
                     </div>
                 }
 
-                <img id="pin3" src='/img/pin.svg' className='w-12' onClick={() => setPin3(!pin3)}/>
+                <img id="pin3" src='/img/hoja2.png' className='w-12' onClick={() => setPin3(!pin3)}/>
                 {pin3 && 
                     <div id="textoPin3" class="block w-11/12 md:w-80 p-3 bg-white border-2 border-red-200 rounded-lg shadow">
                         <h5 class="mb-2 text-md font-bold tracking-tight text-gray-900">Salud</h5>
@@ -49,7 +49,7 @@ export default function Main() {
                     </div>
                 }
 
-                <img id="pin4" src='/img/pin.svg' className='w-12' onClick={() => setPin4(!pin4)}/>
+                <img id="pin4" src='/img/hoja2.png' className='w-12' onClick={() => setPin4(!pin4)}/>
                 {pin4 && 
                     <div id="textoPin4" class="block w-11/12 md:w-80 p-3 bg-white border-2 border-red-200 rounded-lg shadow">
                         <h5 class="mb-2 text-md font-bold tracking-tight text-gray-900">Gobierno local</h5>
@@ -57,7 +57,7 @@ export default function Main() {
                     </div>
                 }
 
-                <img id="pin5" src='/img/pin.svg' className='w-12' onClick={() => setPin5(!pin5)}/>
+                <img id="pin5" src='/img/hoja2.png' className='w-12' onClick={() => setPin5(!pin5)}/>
                 {pin5 && 
                     <div id="textoPin5" class="block w-11/12 md:w-80 p-3 bg-white border-2 border-red-200 rounded-lg shadow">
                         <h5 class="mb-2 text-md font-bold tracking-tight text-gray-900">Cultura y ocio</h5>
@@ -65,7 +65,7 @@ export default function Main() {
                     </div>
                 }
 
-                <img id="pin6" src='/img/pin.svg' className='w-12' onClick={() => setPin6(!pin6)}/>
+                <img id="pin6" src='/img/hoja2.png' className='w-12' onClick={() => setPin6(!pin6)}/>
                 {pin6 && 
                     <div id="textoPin6" class="block w-11/12 md:w-80 p-3 bg-white border-2 border-red-200 rounded-lg shadow">
                         <h5 class="mb-2 text-md font-bold tracking-tight text-gray-900">Clima</h5>
@@ -73,7 +73,7 @@ export default function Main() {
                     </div>
                 }
 
-                <img id="pin7" src='/img/pin.svg' className='w-12' onClick={() => setPin7(!pin7)}/>
+                <img id="pin7" src='/img/hoja2.png' className='w-12' onClick={() => setPin7(!pin7)}/>
                 {pin7 && 
                     <div id="textoPin7" class="block w-11/12 md:w-80 p-3 bg-white border-2 border-red-200 rounded-lg shadow">
                         <h5 class="mb-2 text-md font-bold tracking-tight text-gray-900">Población</h5>
@@ -81,7 +81,7 @@ export default function Main() {
                     </div>
                 }
 
-                <img id="pin8" src='/img/pin.svg' className='w-12' onClick={() => setPin8(!pin8)}/>
+                <img id="pin8" src='/img/hoja2.png' className='w-12' onClick={() => setPin8(!pin8)}/>
                 {pin8 && 
                     <div id="textoPin8" class="block w-11/12 md:w-80 p-3 bg-white border-2 border-red-200 rounded-lg shadow">
                         <h5 class="mb-2 text-md font-bold tracking-tight text-gray-900">Educación</h5>
@@ -89,7 +89,7 @@ export default function Main() {
                     </div>
                 }
 
-                <img id="pin9" src='/img/pin.svg' className='w-12' onClick={() => setPin9(!pin9)}/>
+                <img id="pin9" src='/img/hoja2.png' className='w-12' onClick={() => setPin9(!pin9)}/>
                 {pin9 && 
                     <div id="textoPin9" class="block w-11/12 md:w-80 p-3 bg-white border-2 border-red-200 rounded-lg shadow">
                         <h5 class="mb-2 text-md font-bold tracking-tight text-gray-900 ">Superficie</h5>
