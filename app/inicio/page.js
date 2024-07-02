@@ -1,6 +1,7 @@
 import Main from "@/components/Main"
 import Navbar from "@/components/Navbar"
 import "../globals.css"
+import Footer from "@/components/Footer"
 
 async function Inicio() {
   
@@ -10,6 +11,7 @@ async function Inicio() {
         <div>
             <Navbar />
             <Main />
+            <Footer />
             
         </div>
     )
