@@ -120,7 +120,6 @@
   background-size: cover; 
   background-position: center; 
   position: relative;
-  filter:hue-rotate()
 }
 
 #fondoConstrucción::after {
@@ -523,6 +522,12 @@
   font-style: italic;
 }
 
+/* SLIDER */
+#slider {
+  width: 50%;
+  height: 50%;
+  /*falta alinearlo*/
+}
 
 /* :root {
   --foreground-rgb: 0, 0, 0;

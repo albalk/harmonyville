@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Map from "@/components/Map"
+import Slider from "@/components/Slider"
 
 export default function Main() {
 
@@ -9,10 +10,12 @@ export default function Main() {
         <div className="bg-white w-full">
             {/* titulo */}
             <div id='fondoTitulo'>
-                <h1 className='titulos py-80 mb-24 lg:pt-44 lg:pb-60 lg:mb-24 font-bold text-5xl lg:text-8xl flex justify-center text-center text-white'>Bienvenidos a <br></br>Harmonyville</h1>
+                <h1 className='titulos py-80 lg:pt-44 lg:pb-60 font-bold text-5xl lg:text-8xl flex justify-center text-center text-white'>Bienvenidos a <br></br>Harmonyville</h1>
             </div>
 
             <Map />
+
+            <Slider />
 
             {/* agua */}
             <div id="fondoAgua" className='py-14 my-24'>

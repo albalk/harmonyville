@@ -9,70 +9,53 @@ export default function Footer() {
         // <div id='footer' className='bg-[#fe0100] text-white p-12'>  
         // </div>
 
-        <footer className="bg-[#fe0100] text-white ">
+        <footer id="footer" className="bg-[#fe0100] text-white ">
             <div className="mx-auto w-full max-w-screen-xl">
-            <div className="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
-                <div>
-                    <h2 className="mb-6 text-sm font-semibold text-white uppercase text-white">Nuestro equipo</h2>
-                    <ul className="text-white font-medium">
-                        <li className="mb-4">
-                            <p>Prueba</p>
-                        </li>
-                        <li className="mb-4">
-                            <p>Prueba</p>
-                        </li>
-                        <li className="mb-4">
-                            <p>Prueba</p>
-                        </li>
-                        <li className="mb-4">
-                            <p>Prueba</p>
-                        </li>
-                        <li className="mb-4">
-                            <p>Prueba</p>
-                        </li>
-                    </ul>
+                <h1 className='py-6 px-4 text-4xl font-semibold text-white text-white'>Conoce a nuestro equipo</h1>
+                <div className="grid grid-cols-1 gap-8 px-4 py-6 lg:py-8 lg:grid-cols-3">
+                    <div>
+                        <ul className="text-white font-medium">
+                            <li className="mb-4 flex justify-start items-end">
+                                <img src='/img/linkedin.svg' className="w-6 h-6 me-2" />
+                                <a href='https://www.linkedin.com/in/juan-antonio-garc%C3%ADa-azanza-b85b48216?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app' target="_blank" rel="noopener noreferrer" className='hover:underline'>Juan Antonio García Azanza</a>
+                            </li>
+                            <li className="mb-4 flex justify-start items-end">
+                                <img src='/img/linkedin.svg' className="w-6 h-6 me-2" />
+                                <a href='https://www.linkedin.com/in/alba-l%C3%B3pez-carruana/' target="_blank" rel="noopener noreferrer" className='hover:underline'>Alba López Carruana</a>
+                            </li>
+                            <li className="mb-4">
+                                <p>Prueba</p>
+                            </li>
+                            <li className="mb-4">
+                                <p>Prueba</p>
+                            </li>
+                            <li className="mb-4">
+                                <p>Prueba</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <img src='/img/equipo.jpg' className=''></img>
+                    </div>
+                    <div>
+                        <h2 className="mb-1 text-sm font-semibold text-white uppercase flex justify-end">¿Quieres saber más?</h2>
+                        <h2 className="mb-6 text-sm font-semibold text-white uppercase flex justify-end">Accede a nuestra página</h2> 
+                        <div className='flex justify-end'>
+                            <img src='/img/QR.svg' className="w-1/2 h-1/2" />
+                        </div>
+                        
+                    </div>
                 </div>
-                <div>
-                    <h2 className="mb-6 text-sm font-semibold text-white uppercase">Contacto</h2>
-                    <ul className="text-white font-medium">
-                        <li className="mb-4">
-                            <img src='/img/linkedin.svg' className="w-8 h-8" />
-                        </li>
-                        <li className="mb-4">
-                            <a href="#" className="hover:underline">Prueba</a>
-                        </li>
-                        <li className="mb-4">
-                            <a href="#" className="hover:underline">Prueba</a>
-                        </li>
-                        <li className="mb-4">
-                            <a href="#" className="hover:underline">Prueba</a>
-                        </li>
-                    </ul>
-                </div>
-                <div></div>
-                <div>
-                    <h2 className="mb-1 text-sm font-semibold text-white uppercase">¿Quieres saber más?</h2>
-                    <h2 className="mb-6 text-sm font-semibold text-white uppercase">Accede a nuestra página</h2>
-                    <img src='/img/QR.svg' className="w-8/12 h-8/12" />
-                </div>
-            </div>
 
-            {/* Creditos */}
+                {/* Creditos */}
 
-            <div className="px-4 py-6 bg-[#fe0100] md:flex md:items-center md:justify-between">
-                <span className="text-sm text-white sm:text-center">Desarrollado por Alba López Carruana
-                </span>
-                <div className="flex mt-4 sm:justify-center md:mt-0 space-x-5 rtl:space-x-reverse">
-                    <a href="https://www.linkedin.com/in/alba-l%C3%B3pez-carruana/" className="text-white" target="_blank" rel="noopener noreferrer">
-                        <img className="w-6 h-6" src="/img/linkedin.svg" />
-                        <span className="sr-only">LinkedIn account</span>
+                <div className="px-4 py-6 bg-[#fe0100] flex items-center justify-start">
+                    <a href="https://github.com/albalk" className="text-white flex justify-start items-end" target="_blank" rel="noopener noreferrer">
+                        <img className="w-6 h-6 me-2" src="/img/github.svg" />
+                        <p className="text-sm text-white sm:text-center font-medium hover:underline">Desarrollado por Alba López Carruana</p>
                     </a>
-                    <a href="https://github.com/albalk" className="text-white" target="_blank" rel="noopener noreferrer">
-                        <img className="w-6 h-6" src="/img/github.svg" />
-                        <span className="sr-only">GitHub account</span>
-                    </a>
+                    
                 </div>
-            </div>
             </div>
         </footer>
 
