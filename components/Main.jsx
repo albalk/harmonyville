@@ -15,7 +15,7 @@ export default function Main() {
 
             <Map />
 
-            <Slider />
+            {/* <Slider /> */}
 
             {/* agua */}
             <div id="fondoAgua" className='py-14 my-24'>
