@@ -176,241 +176,138 @@
 /**/
 @media (min-width: 768px) {
   #fondoCiudad {
-    background-image: url('/img/Harmonyville.png');
-    background-size:contain; 
-    background-position: center; 
     position: relative;
-    background-repeat: no-repeat;
   }
   
   /* pines */
   
+  .textoPin {
+    position: absolute;
+    left: 55%;
+    top: -15%;
+  }
+
   #pin1 {
     position: absolute;
-    left: 48.5%;
-    top: 0%;
-  }
-  
-  #textoPin1 {
-    position: absolute;
-    left: 53%;
-    top: -10%;
+    left: 25%;
+    top: -6%;
   }
   
   #pin2 {
     position: absolute;
-    left: 35%;
-    top:9%;
-  }
-  
-  #textoPin2 {
-    position: absolute;
-    left: 30%;
-    top:16%;
+    left: 17.5%;
+    top: 6.5%;
   }
   
   #pin3 {
     position: absolute;
-    left: 57%;
-    top: 10%;
-  }
-  
-  #textoPin3 {
-    position: absolute;
-    left: 62%;
-    top: 10%;
+    left: 29.6%;
+    top: 8%;
   }
   
   #pin4 {
     position: absolute;
-    left: 25%;
-    top: 15%;
-  }
-  
-  #textoPin4 {
-    position: absolute;
-    left: 2%;
-    top: 11%;
+    left: 11.75%;
+    top: 13%;
   }
   
   #pin5 {
     position: absolute;
-    left: 48.45%;
-    top: 35.2%;
-  }
-  
-  #textoPin5 {
-    position: absolute;
-    left: 39%;
-    top: 43%;
+    left: 25%;
+    top: 33.2%;
   }
   
   #pin6 {
     position: absolute;
-    left: 28.5%;
-    top: 58%;
-  }
-  
-  #textoPin6 {
-    position: absolute;
-    left: 5%;
+    left: 14%;
     top: 54%;
   }
   
   #pin7 {
     position: absolute;
-    left: 60%;
-    top: 63%;
-  }
-  
-  #textoPin7 {
-    position: absolute;
-    left: 65%;
-    top: 63%;
+    left: 31.5%;
+    top: 60%;
   }
   
   #pin8 {
     position: absolute;
-    left: 73.2%;
-    top: 52%;
-  }
-  
-  #textoPin8 {
-    position: absolute;
-    left: 63.5%;
-    top: 32%;
+    left: 38.6%;
+    top: 48%;
   }
   
   #pin9 {
     position: absolute;
-    left: 40%;
-    top: 72%;
+    left: 20.25%;
+    top: 70%;
   }
   
-  #textoPin9 {
-    position: absolute;
-    left: 16%;
-    top: 72%;
-  }
 }
 
 @media (max-width: 768px) {
   #fondoCiudad {
-    background-image: url('/img/Harmonyville.png');
-    background-size:contain; 
-    background-position: center; 
     position: relative;
-    background-repeat: no-repeat;
   }
   
   /* pines */
+
+  .textoPin {
+    position: absolute;
+    left: 10%;
+    top: -70%;
+  }
   
   #pin1 {
     position: absolute;
-    left: 44.5%;
-    top: 22%;
-  }
-  
-  #textoPin1 {
-    position: absolute;
-    left: 5%;
-    top: 0%;
+    left: 45.5%;
+    top: 4%;
   }
   
   #pin2 {
     position: absolute;
-    left: 27%;
-    top:27%;
-  }
-  
-  #textoPin2 {
-    position: absolute;
-    left: 5%;
-    top: 0%;
+    left: 30%;
+    top:17%;
   }
   
   #pin3 {
     position: absolute;
     left: 54.4%;
-    top: 28%;
-  }
-  
-  #textoPin3 {
-    position: absolute;
-    left: 5%;
-    top: 0%;
+    top: 17%;
   }
   
   #pin4 {
     position: absolute;
-    left: 14%;
-    top: 30%;
-  }
-  
-  #textoPin4 {
-    position: absolute;
-    left: 5%;
-    top: 0%;
+    left: 18%;
+    top: 21%;
   }
   
   #pin5 {
     position: absolute;
-    left: 44%;
+    left: 45.5%;
     top: 38%;
-  }
-  
-  #textoPin5 {
-    position: absolute;
-    left: 5%;
-    top: 73%;
   }
   
   #pin6 {
     position: absolute;
-    left: 19%;
-    top: 48%;
-  }
-  
-  #textoPin6 {
-    position: absolute;
-    left: 5%;
-    top: 73%;
+    left: 23%;
+    top: 57%;
   }
   
   #pin7 {
     position: absolute;
-    left: 58.25%;
-    top: 50.5%;
-  }
-  
-  #textoPin7 {
-    position: absolute;
-    left: 5%;
-    top: 73%;
+    left: 58.5%;
+    top: 62%;
   }
   
   #pin8 {
     position: absolute;
-    left: 74.4%;
-    top: 45%;
-  }
-  
-  #textoPin8 {
-    position: absolute;
-    left: 5%;
-    top: 73%;
+    left: 73.5%;
+    top: 51%;
   }
   
   #pin9 {
     position: absolute;
-    left: 39.25%;
-    top: 56.5%;
-  }
-  
-  #textoPin9 {
-    position: absolute;
-    left: 5%;
-    top: 73%;
+    left: 36%;
+    top: 70%;
   }
 }
 
