@@ -30,13 +30,13 @@ export default function Navbar() {
                             <a onClick={() => scrollToSection('fondoAgua')} className="block py-2 px-3  rounded md:border-0 md:p-0 text-black">Agua</a>
                         </li>
                         <li>
-                            <a onClick={() => scrollToSection('fondoRealState')} className="block py-2 px-3  rounded md:border-0 md:p-0 text-black">Real Estate</a>
+                            <a onClick={() => scrollToSection('fondoEnergía')} className="block py-2 px-3  rounded md:border-0 md:p-0 text-black">Energía</a>
                         </li>
                         <li>
                             <a onClick={() => scrollToSection('fondoBestinver')} className="block py-2 px-3  rounded md:border-0 md:p-0 text-black">Entorno urbano</a>
                         </li>
                         <li>
-                            <a onClick={() => scrollToSection('fondoMobility')} className="block py-2 px-3  rounded md:border-0 md:p-0 text-black">Educación y cultura</a>
+                            <a onClick={() => scrollToSection('fondoMobility')} className="block py-2 px-3  rounded md:border-0 md:p-0 text-black">Educación y empleo</a>
                         </li>
                         <li>
                             <a onClick={() => scrollToSection('fondoDigitalHub')} className="block py-2 px-3  rounded md:border-0 md:p-0 text-black">Innovación</a>
