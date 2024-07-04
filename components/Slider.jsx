@@ -8,8 +8,9 @@ export default function Slider() {
     return (
         <ReactCompareSlider
             id="slider"
-            itemOne={<ReactCompareSliderImage src="/img/fondoAgua.jpg" alt="Image one" />}
-            itemTwo={<ReactCompareSliderImage src="/img/fondoCultura.jpg" alt="Image two" />}
+            className='mx-4'
+            itemOne={<ReactCompareSliderImage src="/img/valdecarros.png" alt="Image one" />}
+            itemTwo={<ReactCompareSliderImage src="/img/realidadVirtual.jpeg" alt="Image two" />}
         />
     )
 

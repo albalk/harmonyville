@@ -30,7 +30,7 @@ export default function Navbar() {
                             <a onClick={() => scrollToSection('fondoAgua')} className="block py-2 px-3  rounded md:border-0 md:p-0 text-black">Agua</a>
                         </li>
                         <li>
-                            <a onClick={() => scrollToSection('fondoRealState')} className="block py-2 px-3  rounded md:border-0 md:p-0 text-black">Real State</a>
+                            <a onClick={() => scrollToSection('fondoRealState')} className="block py-2 px-3  rounded md:border-0 md:p-0 text-black">Real Estate</a>
                         </li>
                         <li>
                             <a onClick={() => scrollToSection('fondoMobility')} className="block py-2 px-3  rounded md:border-0 md:p-0 text-black">Mobility</a>
@@ -42,13 +42,7 @@ export default function Navbar() {
                             <a onClick={() => scrollToSection('fondoCultura')} className="block py-2 px-3  rounded md:border-0 md:p-0 text-black">Cultura</a>
                         </li>
                         <li>
-                            <a onClick={() => scrollToSection('fondoConstrucción')} className="block py-2 px-3  rounded md:border-0 md:p-0 text-black">Construcción</a>
-                        </li>
-                        <li>
-                            <a onClick={() => scrollToSection('fondoDigitalHub')} className="block py-2 px-3  rounded md:border-0 md:p-0 text-black">Digital Hub</a>
-                        </li>
-                        <li>
-                            <a onClick={() => scrollToSection('fondoEnergía')} className="block py-2 px-3  rounded md:border-0 md:p-0 text-black">Energía</a>
+                            <a onClick={() => scrollToSection('footer')} className="block py-2 px-3  rounded md:border-0 md:p-0 text-black">Nuestro equipo</a>
                         </li>
                     </ul>
                 </div>

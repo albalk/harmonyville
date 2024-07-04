@@ -23,14 +23,17 @@ export default function Footer() {
                                 <img src='/img/linkedin.svg' className="w-6 h-6 me-2" />
                                 <a href='https://www.linkedin.com/in/alba-l%C3%B3pez-carruana/' target="_blank" rel="noopener noreferrer" className='hover:underline'>Alba López Carruana</a>
                             </li>
-                            <li className="mb-4">
-                                <p>Prueba</p>
+                            <li className="mb-4 flex justify-start items-end">
+                                <img src='/img/linkedin.svg' className="w-6 h-6 me-2" />
+                                <a className='hover:underline'>David López Ribes</a>
                             </li>
-                            <li className="mb-4">
-                                <p>Prueba</p>
+                            <li className="mb-4 flex justify-start items-end">
+                                <img src='/img/linkedin.svg' className="w-6 h-6 me-2" />
+                                <a className='hover:underline'>Martina Gallego López</a>
                             </li>
-                            <li className="mb-4">
-                                <p>Prueba</p>
+                            <li className="mb-4 flex justify-start items-end">
+                                <img src='/img/linkedin.svg' className="w-6 h-6 me-2" />
+                                <a href='https://www.linkedin.com/in/ana-mancebo-damborenea/' target="_blank" rel="noopener noreferrer" className='hover:underline'>Ana Mancebo Damborenea</a>
                             </li>
                         </ul>
                     </div>
@@ -48,7 +51,7 @@ export default function Footer() {
                 </div>
 
                 {/* Creditos */}
-
+                <hr className="my-2 border-gray-200" />
                 <div className="px-4 py-6 bg-[#fe0100] flex items-center justify-start">
                     <a href="https://github.com/albalk" className="text-white flex justify-start items-end" target="_blank" rel="noopener noreferrer">
                         <img className="w-6 h-6 me-2" src="/img/github.svg" />
