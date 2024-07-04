@@ -36,10 +36,10 @@ export default function Navbar() {
                             <a onClick={() => scrollToSection('fondoMobility')} className="block py-2 px-3  rounded md:border-0 md:p-0 text-black">Mobility</a>
                         </li>
                         <li>
-                            <a onClick={() => scrollToSection('fondoBestinver')} className="block py-2 px-3  rounded md:border-0 md:p-0 text-black">Bestinver</a>
+                            <a onClick={() => scrollToSection('fondoBestinver')} className="block py-2 px-3  rounded md:border-0 md:p-0 text-black">Entorno urbano</a>
                         </li>
                         <li>
-                            <a onClick={() => scrollToSection('fondoCultura')} className="block py-2 px-3  rounded md:border-0 md:p-0 text-black">Cultura</a>
+                            <a onClick={() => scrollToSection('fondoDigitalHub')} className="block py-2 px-3  rounded md:border-0 md:p-0 text-black">Innovación</a>
                         </li>
                         <li>
                             <a onClick={() => scrollToSection('footer')} className="block py-2 px-3  rounded md:border-0 md:p-0 text-black">Nuestro equipo</a>

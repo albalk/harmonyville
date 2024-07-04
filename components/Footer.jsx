@@ -10,24 +10,24 @@ export default function Footer() {
         // </div>
 
         <footer id="footer" className="bg-[#fe0100] text-white ">
-            <div className="mx-auto w-full max-w-screen-xl">
-                <h1 className='py-6 px-4 text-4xl font-semibold text-white text-white'>Conoce a nuestro equipo</h1>
+            <div className="mx-auto w-full max-w-screen-xl pt-20">
+                <h1 className='pt-6 pb-12 px-4 text-3xl lg:text-6xl font-semibold text-white'>Conoce a nuestro equipo</h1>
                 <div className="grid grid-cols-1 gap-8 px-4 py-6 lg:py-8 lg:grid-cols-3">
                     <div>
                         <ul className="text-white font-medium">
-                            <li className="mb-4 flex justify-start items-end">
+                            <li className="mb-8 flex justify-start items-end">
                                 <img src='/img/linkedin.svg' className="w-6 h-6 me-2" />
                                 <a href='https://www.linkedin.com/in/juan-antonio-garc%C3%ADa-azanza-b85b48216?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app' target="_blank" rel="noopener noreferrer" className='hover:underline'>Juan Antonio García Azanza</a>
                             </li>
-                            <li className="mb-4 flex justify-start items-end">
+                            <li className="mb-8 flex justify-start items-end">
                                 <img src='/img/linkedin.svg' className="w-6 h-6 me-2" />
                                 <a href='https://www.linkedin.com/in/alba-l%C3%B3pez-carruana/' target="_blank" rel="noopener noreferrer" className='hover:underline'>Alba López Carruana</a>
                             </li>
-                            <li className="mb-4 flex justify-start items-end">
+                            <li className="mb-8 flex justify-start items-end">
                                 <img src='/img/linkedin.svg' className="w-6 h-6 me-2" />
                                 <a className='hover:underline'>David López Ribes</a>
                             </li>
-                            <li className="mb-4 flex justify-start items-end">
+                            <li className="mb-8 flex justify-start items-end">
                                 <img src='/img/linkedin.svg' className="w-6 h-6 me-2" />
                                 <a className='hover:underline'>Martina Gallego López</a>
                             </li>
@@ -38,16 +38,9 @@ export default function Footer() {
                         </ul>
                     </div>
                     <div>
-                        <img src='/img/equipo.jpg' className=''></img>
+                        <img src='/img/equipo.jpg' className='pb-5'></img>
                     </div>
-                    <div>
-                        <h2 className="mb-1 text-sm font-semibold text-white uppercase flex justify-end">¿Quieres saber más?</h2>
-                        <h2 className="mb-6 text-sm font-semibold text-white uppercase flex justify-end">Accede a nuestra página</h2> 
-                        <div className='flex justify-end'>
-                            <img src='/img/QR.svg' className="w-1/2 h-1/2" />
-                        </div>
-                        
-                    </div>
+                    <div></div>
                 </div>
 
                 {/* Creditos */}

@@ -9,7 +9,7 @@
 }
 
 #fondoTitulo {
-  background-image: url('/img/fondo.jpeg');
+  background-image: url('/img/fondo3.jpg');
   background-size: cover; 
   background-position: center; 
   position: relative;
@@ -311,6 +311,13 @@
   }
 }
 
+/* Flechas */
+.flechas {
+  position: absolute;
+  z-index: 2;
+  left: 95%;
+  top: 90%;
+}
 
 /* scrollbar */
 
