@@ -33,7 +33,7 @@ export default function DigitalHub() {
                         <div className="flex flex-col justify-between p-4 leading-normal">
                             <h5 className="text-xl font-bold tracking-tight text-gray-900 uppercase roboto-medium">Smart Skies</h5>
                             <p className='mb-5 text-[#fe0100] uppercase text-xs roboto-regular'>Digital hub</p>
-                            <p className="mb-5  font-normal text-gray-700 roboto-regular">La aplicación meteorológica perfecta para aquellos que buscan información precisa y confiable sobre el clima.</p>
+                            <p className="mb-5 font-normal text-gray-700 roboto-regular">La aplicación meteorológica perfecta para aquellos que buscan información precisa y confiable sobre el clima.</p>
                         </div>
                     </div>
                 </div>
@@ -48,7 +48,7 @@ export default function DigitalHub() {
                     <div className="flex flex-col justify-between leading-normal p-4">
                         <h5 className="text-xl font-bold tracking-tight text-gray-900 uppercase roboto-medium">VR Construye: Visualizando el Futuro de la Construcción</h5>
                         <p className='mb-5 text-[#fe0100] uppercase text-xs roboto-regular'>Realidad Virtual</p>
-                        <p className="mb-5 font-normal text-gray-700 roboto-regular">uestro proyecto innovador utiliza VR para crear representaciones 3D inmersivas de planos de construcción para todos los equipos trabajando en la obra.</p>
+                        <p className="mb-5 font-normal text-gray-700 roboto-regular">Nuestro proyecto innovador utiliza VR para crear representaciones 3D inmersivas de planos de construcción para todos los equipos trabajando en la obra.</p>
                     </div>
                 </div>
             </div>

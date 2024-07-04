@@ -4,6 +4,9 @@ import React from 'react';
 import Map from "@/components/Map"
 import DigitalHub from "@/components/DigitalHub"
 import Urbano from "@/components/Urbano"
+import Educacion from "@/components/Educacion"
+import Agua from "@/components/Agua"
+import Energia from "@/components/Energia"
 
 export default function Main() {
 
@@ -17,22 +20,15 @@ export default function Main() {
             <Map />
 
             {/* agua */}
-            <div id="fondoAgua" className='py-14 my-24'>
-                <h1 className='titulos py-96 lg:py-80 font-bold text-5xl lg:text-8xl flex justify-center text-center text-white'>Agua</h1>
-            </div>
+            <Agua />
 
-            {/* real state */}
-            <div id="fondoRealState" className='py-14 my-24'>
-                <h1 className='titulos py-96 lg:py-80 font-bold text-5xl lg:text-8xl flex justify-center text-center text-white'>Real Estate</h1>
-            </div>
-
-            {/* Mobility */}
-            <div id="fondoMobility" className='py-14  my-24'>
-                <h1 className='titulos py-96 lg:py-80 font-bold text-5xl lg:text-8xl flex justify-center text-center text-white'>Mobility</h1>
-            </div>
+            <Energia />
 
             {/* Urbanismo */}
             <Urbano />
+
+            {/* Educacion y cultura */}
+            <Educacion />
 
             {/* Digital Hub */}
             <DigitalHub />
