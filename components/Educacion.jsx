@@ -38,7 +38,6 @@ export default function Educacion() {
                         <div className="py-5">
                             <h5 className="text-xl font-bold tracking-tight text-gray-900 uppercase roboto-medium">INCENTIVOS A LAS EMPRESAS PARA FOMENTAR EL EMPLEO JUVENIL</h5>
                             <p className='mb-5 text-[#fe0100] uppercase text-xs roboto-regular'>Ayudas</p>
-                            <p className="mb-2 font-normal text-gray-700 roboto-regular">Hemos creado una app móvil exclusiva para jóvenes de 16 a 26 años, diseñada para facilitar su acceso a empleos y programas de formación. Esta app ofrece las siguientes funcionalidades:</p>
                             <ul className="list-disc list-inside mb-5 font-normal text-gray-700 roboto-regular">
                                 <li className='font-normal text-gray-700 roboto-regular'>Exención de cotizaciones a la Seguridad Social</li>
                                 <li className='font-normal text-gray-700 roboto-regular'>Exención de retenciones en el salario</li>
